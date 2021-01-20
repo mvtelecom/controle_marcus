@@ -1,7 +1,7 @@
+import 'package:flutter/material.dart';
 import 'package:controle_marcus/common/custom_drawer/custom_drawer.dart';
 import 'package:controle_marcus/models/page_manager.dart';
 import 'package:controle_marcus/screens/login/login_screen.dart';
-import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 class BaseScreen extends StatelessWidget {
@@ -18,7 +18,6 @@ class BaseScreen extends StatelessWidget {
         physics: const NeverScrollableScrollPhysics(),
         // telas do aplicativo
         children: <Widget>[
-          LoginScreen(),
           Scaffold(
             drawer: CustomDrawer(),
             appBar: AppBar(

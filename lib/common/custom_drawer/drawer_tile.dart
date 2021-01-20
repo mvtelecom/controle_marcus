@@ -1,5 +1,5 @@
-import 'package:controle_marcus/models/page_manager.dart';
 import 'package:flutter/material.dart';
+import 'package:controle_marcus/models/page_manager.dart';
 import 'package:provider/provider.dart';
 
 class DrawerTile extends StatelessWidget {
